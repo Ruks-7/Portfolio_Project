@@ -5,7 +5,7 @@ body{
   line-height: 1.5;
 }
 
-header{
+.homepage-header{
 margin: 120px 0px;
 font-size: bold;
 text-align: center;
@@ -13,17 +13,18 @@ text-align: center;
 
 }
 
-
-h1{
-
+.homepage-h1{
+font-size: 40px;
 line-height: 2;
 }
+
 h2{
   line-height: 3;
+  font-size: 30px;
 }
 
 header p{
-  font-size: 22px;
+  font-size: 26px;
   margin-bottom: 3px;
 }
 
@@ -71,4 +72,29 @@ transform: scale(1.2);
 .side{
   margin-top: 30px;
   font-size: 16px;
+}
+
+.about-h1{
+  padding-left: 10px;
+  text-align: left;
+  font-size: bold;
+  margin: 120px 0 0 0;
+}
+
+.about-p{
+font-size: 18px;
+padding-left: 10px;
+margin-top: 10px;
+}
+
+.view-projects{
+  text-decoration: underline;
+  margin-top: 60px;
+  padding-left: 10px;
+}
+
+.view-projects 
+ a:visited,
+  a:link{
+ color: white;
 }
