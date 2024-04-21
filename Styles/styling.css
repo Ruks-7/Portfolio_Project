@@ -1,29 +1,47 @@
 body{
-  margin-top: 20px;
   background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
   color: white;
   font-family: "Lato", sans-serif;
+  line-height: 1.5;
 }
 
 header{
+margin: 120px 0px;
 font-size: bold;
 text-align: center;
-padding-bottom: 30px;
-border-bottom:1px solid white ;
+
+
 }
 
-p{
-  font-size: 20px;
+
+h1{
+
+line-height: 2;
+}
+h2{
+  line-height: 3;
+}
+
+header p{
+  font-size: 22px;
   margin-bottom: 3px;
 }
 
+.country{
+  font-size: 14px;
+}
+
+.buttons{
+ padding: 20px 80px; 
+  border-bottom: 1px solid white;
+}
 
 .ContactButton{
  padding: 15px 30px;
  border: none;
- border-radius: 20px;
+ border-radius: 26px;
  font-size: 17px;
- margin-top: 30px;
+ margin: 60px 0;
 }
 
 .ContactButton:hover{
@@ -32,12 +50,6 @@ p{
   transition: 0.5ms ease-out; 
 }
 
-.about{
-  margin-right: 20px;
-}
- .contact{
-  margin-left: 20px;
- }
 .project_details{
  text-align: center;
  margin-top: 10px;
