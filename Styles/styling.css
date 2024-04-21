@@ -93,8 +93,7 @@ margin-top: 10px;
   padding-left: 10px;
 }
 
-.view-projects 
- a:visited,
-  a:link{
+.view-projects a:visited,
+a:link{
  color: white;
 }
