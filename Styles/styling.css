@@ -1,11 +1,51 @@
-header p{
-
+body{
+  margin-top: 20px;
+  background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
+  color: white;
 }
+
+header{
+font-size: bold;
+text-align: center;
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
 
 .ContactButton{
  padding: 15px 30px;
  border: none;
- border-radius: 4px;
+ border-radius: 20px;
  font-size: 17px;
  margin-top: 30px;
+}
+
+.ContactButton:hover{
+  background-color: rgb(98, 106, 109);
+  color: white; 
+  transition: 0.5s ease-out; 
+}
+
+.project_details{
+  margin-top: 30px;
+}
+ 
+.align{
+  margin: 40px 0;
+}
+
+.pop{
+  width: 80%;
+  border-radius: 6px;
+  transition: transform .5s;
+}
+.pop:hover{
+transform: scale(1.2);
+}
+.side{
+  margin-top: 30px;
+  font-size: 16px;
 }
