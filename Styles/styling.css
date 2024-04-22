@@ -5,7 +5,7 @@ body{
   line-height: 1.5;
 }
 
-nav a.ctive,
+
 nav a:hover{
   text-decoration: underline;
 }
