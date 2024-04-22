@@ -5,12 +5,15 @@ body{
   line-height: 1.5;
 }
 
+nav a.ctive,
+nav a:hover{
+  text-decoration: underline;
+}
+
 .homepage-header{
 margin: 120px 0px;
 font-size: bold;
 text-align: center;
-
-
 }
 
 .homepage-h1{
@@ -48,13 +51,13 @@ header p{
 .ContactButton:hover{
   background-color: rgb(98, 106, 109);
   color: white; 
-  transition: 0.5ms ease-out; 
+  transition: all 150ms ease-in-out; 
 }
 
 .project_details{
  text-align: center;
  margin-top: 10px;
- font-size: 20px;
+ font-size: 40px;
 }
  
 .align{
@@ -75,7 +78,6 @@ transform: scale(1.2);
 }
 
 .about-h1,
-.work-header,
 .contact-h1{
   padding-left: 10px;
   text-align: left;
@@ -104,6 +106,10 @@ margin-top: 10px;
   border-radius: 6px;
   margin: 12px 0;
   width: 75%;
+}
+
+.work-header{
+  margin: 100px 0;
 }
 
 .work-info{
