@@ -1,3 +1,10 @@
+:root{
+--primary-color: white;
+--seconadry-color: rgb(128, 126, 126);
+--text-align: center;
+
+}
+
 body{
   background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
   color: white;
@@ -14,7 +21,7 @@ nav :hover{
 .homepage-header{
 margin: 120px 0px;
 font-size: bold;
-text-align: center;
+text-align: var(--text-align);
 }
 
 .homepage-h1{
@@ -38,7 +45,7 @@ header p{
 
 .buttons{
  padding: 20px 80px; 
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .ContactButton{
@@ -50,13 +57,13 @@ header p{
 }
 
 .ContactButton:hover{
-  background-color: rgb(128, 126, 126);
-  color: white; 
+  background-color: var(--seconadry-color);
+  color: var(--primary-color); 
   transition: all 150ms ease-in-out; 
 }
 
 .project_details{
- text-align: center;
+ text-align: var(--text-align);
  margin-top: 10px;
  font-size: 40px;
 }
@@ -80,11 +87,11 @@ transform: scale(1.2);
 
 .homepage-titles{
   font-size: 26px;
-  color: rgb(128, 126, 126);
+  color: var(--seconadry-color);
 }
 
 .homepage-footer{
-  text-align: center;
+  text-align: var(--text-align);
   padding-top: 10px;
 }
 
@@ -109,7 +116,6 @@ padding: 10px 20px;
 
 .about-h1,
 .contact-h1{
-  padding-left: 10px;
   text-align: left;
   font-size: bold;
   margin: 100px 0 0 0;
@@ -117,13 +123,17 @@ padding: 10px 20px;
 
 .about-p{
 font-size: 18px;
-padding-left: 10px;
 margin-top: 10px;
 }
 
 .view-projects{
   text-decoration: underline;
   margin-top: 60px;
+}
+
+.about-h1,
+.contact-h1,
+.view-projects{
   padding-left: 10px;
 }
 
@@ -131,7 +141,7 @@ margin-top: 10px;
 .view-projects a:link,
 .homepage-social-links a:visited,
 .homepage-social-links a:link{
- color: white;
+ color: var(--primary-color);
 }
 
 .work-image{
@@ -145,26 +155,26 @@ margin-top: 10px;
 }
 
 .work-info{
-  text-align: center;
+  text-align:var(--text-align);
   font-size: 18px;
   margin-top: 18px;
 }
 
 .work-footer{
   margin: 20px 0;
-  text-align: center;
-  border-top: 1px solid white;
+  text-align: var(--text-align);
+  border-top: 1px solid var(--primary-color);
   padding: 16px 0;
 }
 
 .work-footer a:visited,
 .work-footer a:link{
-  color: white;
+  color: var(--primary-color);
 }
 
 
 .contact-details{
-  text-align: center;
+  text-align: var(--text-align);
   margin-top: 30px;
 }
 
@@ -174,5 +184,5 @@ margin-top: 10px;
 
 .contact-titles a:visited,
 .contact-titles a:link{
-  color: rgb(128, 126, 126);
+  color: var(--seconadry-color);
 }
