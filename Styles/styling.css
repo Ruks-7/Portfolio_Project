@@ -77,6 +77,30 @@ transform: scale(1.2);
   font-size: 16px;
 }
 
+.homepage-footer{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-homepage-contact{
+  font-size: 34px;
+}
+
+ footer .homepage-social-links{
+display: flex;
+justify-content: space-around;
+margin: 20px 0;
+font-size: 30px;
+text-decoration: none;
+}
+
+ footer .homepage-social{
+border: none;
+border-radius: 50%;
+background-color: rgb(29, 28, 28);
+padding: 10px 20px;
+}
+
 .about-h1,
 .contact-h1{
   padding-left: 10px;
@@ -98,7 +122,9 @@ margin-top: 10px;
 }
 
 .view-projects a:visited,
-.view-projects a:link{
+.view-projects a:link,
+.homepage-social-links a:visited,
+.homepage-social-links a:link{
  color: white;
 }
 
