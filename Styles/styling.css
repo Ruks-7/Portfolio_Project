@@ -74,7 +74,8 @@ transform: scale(1.2);
   font-size: 16px;
 }
 
-.about-h1{
+.about-h1,
+.work-header{
   padding-left: 10px;
   text-align: left;
   font-size: bold;
@@ -96,4 +97,16 @@ margin-top: 10px;
 .view-projects a:visited,
 .view-projects a:link{
  color: white;
+}
+
+.work-image{
+  border-radius: 6px;
+  margin: 12px 0;
+  width: 75%;
+}
+
+.work-info{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 18px;
 }
