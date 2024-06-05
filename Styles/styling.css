@@ -80,6 +80,7 @@ header p{
 .pop:hover{
 transform: scale(1.2);
 }
+
 .side{
   margin-top: 20px;
   font-size: 16px;
